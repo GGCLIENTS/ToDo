@@ -1,0 +1,36 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    display: flex;
+    background-color: #504a9e;
+}
+.toDo{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+.toDo input{
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+}
+.toDo ol li{
+    position: relative;
+    padding: 10px;
+}
+.toDo .delete{
+    position:absolute;
+    right: 20px ;
+
+}
+.toDo .check{
+    position:absolute;
+    right: 50px;
+
+}
+.toDo .checked{
+    color: green;
+    text-decoration: line-through;
+}
